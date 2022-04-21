@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Parametrized test">
+        <classes>
+            <!--<class name="testCases.Cart">
+                <methods>
+                    <include name="cart"/>
+                </methods>
+            </class>
+            <class name="testCases.ContactUs">
+                <methods>
+                    <include name="contactUs"/>
+                </methods>
+            </class>-->
+            <class name="testCases.Login">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+            <!--<class name="testCases.Register">
+                <methods>
+                    <include name="registerUser"/>
+                </methods>
+            </class>
+            <class name="testCases.Search">
+                <methods>
+                    <include name="noProductSearch"/>
+                    <include name="productSearch"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite>
