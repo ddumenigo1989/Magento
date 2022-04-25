@@ -8,7 +8,7 @@ public class MapSitePage extends BasePage{
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-    
+
 
 
 
